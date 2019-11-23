@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/minSideSize"
+    android:layout_margin="@dimen/itemSpacing"
+    android:minWidth="@dimen/minSideSize"
+    >
+    <TextView
+        android:gravity="center"
+        android:id="@+id/list_item_text"
+        android:text="@string/list_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        />
+</FrameLayout>
